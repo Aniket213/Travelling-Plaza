@@ -1,0 +1,210 @@
+.contact{
+    /* border: 4px solid red; */
+    background-color: var(--white);
+    padding: 4rem 0;
+}
+
+.contactcontainer{
+    /* border: 2px solid red; */
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contactimgcover{
+    width: 48%;
+    overflow: hidden;
+}
+
+.contactimg{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 400px;
+    background: url('../../../public/images/contact/contact.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s;
+}
+.contactimg:hover{
+    transform: scale(1.2);
+}
+
+.contactform{
+    /* border: 2px solid red; */
+    height: 400px;
+    background-color: whitesmoke;
+    width: 48%;
+    padding: 1rem;
+}
+
+.contacthead{
+    /* border: 1px solid red; */
+    font-size: 2rem;
+    color: red;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+    transition: all 0.5s;
+    margin-bottom: 1.5rem;
+}
+
+.formitems{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    border-bottom: 2px solid rgb(161, 161, 161);
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+.formitems:focus::placeholder{
+    color: transparent;
+}
+
+.contactbtn{
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: red;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    border-radius: 20px;
+}
+.contactbtn:hover{
+    animation: rubberBand;
+    animation-duration: 1s;
+}
+
+/* ------------------------- map ------------------------ */
+.map{
+    border: none;
+    width: 80vw;
+    height: 400px;
+    display: block;
+    margin: 2rem auto;
+}
+
+/* ------------------------------------------------- media queries ----------------------------------------------------- */
+
+@media ( max-width: 1000px ) {
+    .contactcontainer{
+        width: 90vw;
+    }
+
+    .contactimg{
+        height: 350px;
+    }
+
+    .contactform{
+        height: 350px;
+        padding: 0.3rem 0.5rem;
+    }
+    .formitems{
+        margin-bottom: 1rem;
+    }
+
+    .contacthead{
+        margin-bottom: 1rem;
+    }
+}
+
+@media ( max-width: 750px ) {
+    .contactcontainer{
+        width: 70vw;
+    }
+
+    .map{
+        width: 70vw;
+    }
+    
+    .contactimgcover{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .contactform{
+        width: 100%;
+    }
+}
+
+@media ( max-width: 550px ) {
+    .contactcontainer{
+        width: 80vw;
+    }
+    .map{
+        height: 350px;
+    }
+}
+
+@media ( max-width: 450px ) {
+    .contactcontainer{
+        width: 90vw;
+    }
+    .map{
+        width: 90vw;
+    }
+}
+
+@media ( max-width: 350px ) {
+    .contactimg{
+        height: 330px;
+    }
+
+    .contactform{
+        height: 330px;
+    }
+
+    .contacthead{
+        font-size: 1.7rem;
+    }
+
+    .formitems{
+        font-size: 0.9rem;
+        margin-bottom: 0.9rem;
+    }
+
+    .contactbtn{
+        font-size: 0.9rem;
+    }
+
+    .contactform{
+        padding: 0.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,515 @@
+.populardestinations{
+    padding-bottom: 8rem;
+    background-color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    /* border-bottom: 2px solid black; */
+}
+
+/* ---------------------------------------------------- heading ----------------------------------------------------- */
+
+.pdesthead{
+    font-size: 3rem;
+    color: var(--heading);
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    transition: all 0.5s;
+}
+.pdesthead:hover{
+    color: var(--headingh);
+}
+
+.pdestmain{
+    padding: 1rem 2rem;
+}
+
+
+/* ------------------------------------------------------------------- slider -------------------------------------------------------------------- */
+
+.pdestsec1{
+    padding: 0.5rem 2rem;
+}
+
+.pdestsec2{
+    padding: 0.5rem 2rem;
+}
+
+.pdestprev{
+    left: -30px !important;
+}
+.pdestprev i{
+    font-size: 2.5rem;
+    color: red;
+}
+
+.pdestnext{
+    right: -30px !important;
+}
+.pdestnext i{
+    font-size: 2.5rem;
+    color: red;
+}
+
+/* ------------------------------------------------------- card images -------------------------------------------------------- */
+
+.pdestslide{
+    padding: 1rem 3rem;
+}
+
+.pdestinnerslide{
+    position: relative;
+    box-shadow: 0 0 15px var(--destinationshadow);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--white);
+}
+
+
+.pdestimg1{
+    background: url('../../../public/images/destinations/bali.jpg');
+}
+.pdestimg2{
+    background: url('../../../public/images/destinations/egypt.jpg');
+}
+.pdestimg3{
+    background: url('../../../public/images/destinations/India.jpg');
+}
+.pdestimg4{
+    background: url('../../../public/images/destinations/london.jpg');
+}
+.pdestimg5{
+    background: url('../../../public/images/destinations/netherland.jpg');
+}
+.pdestimg6{
+    background: url('../../../public/images/destinations/newzealand.jpg');
+}
+.pdestimg7{
+    background: url('../../../public/images/destinations/China.jpg');
+}
+.pdestimg8{
+    background: url('../../../public/images/destinations/iceland.jpg');
+}
+.pdestimg9{
+    background: url('../../../public/images/destinations/japan1.jpg');
+}
+.pdestimg10{
+    background: url('../../../public/images/destinations/maldives.jpg');
+}
+.pdestimg11{
+    background: url('../../../public/images/destinations/newyork.jpg');
+}
+.pdestimg12{
+    background: url('../../../public/images/destinations/venice.jpg');
+}
+.pdestimg{
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* -------------------------------------------- translay -------------------------------------------- */
+
+.pdestimg::after{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: translateY(-100%);
+    transition: all 0.3s;
+}
+
+.pdestimg:hover::after{
+    transform: translateY(0);
+}
+
+.pdestbtn{
+    border: none;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.pdestbtn:hover{
+    font-size: 1.5rem;
+    background-color: red;
+}
+
+.pdestimg:hover .pdestbtn{
+    top: 23%;
+    opacity: 1;
+}
+
+/* ---------------------------------------------- card description ---------------------------------------------- */
+
+.pdestimgdesc{
+    padding: 1rem 2rem;
+}
+.pdestimgdesc i{
+    color: red;
+}
+
+.pdestdest{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color3);
+}
+.pdestdest i{
+    margin-right: 1rem;
+}
+
+.pdestprice{
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    color: var(--color5);
+}
+.pdestprice i{
+    margin-left: 0.5rem;
+}
+
+.pdeststars{
+    font-size: 1.4rem;
+    color: var(--color5);
+}
+.pdeststars i{
+    margin-right: 0.5rem;
+}
+.pdeststars span{
+    font-size: 1rem;
+}
+
+
+/* ------------------------------------------------- media queries ----------------------------------------------------- */
+@media ( max-width: 1270px ) {
+    .pdestslide{
+        padding: 1rem 1.5rem;
+    }
+}
+
+@media ( max-width: 1240px ) {
+    .pdestbtn{
+        font-size: 1.2rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.2rem;
+    }
+}
+
+@media ( max-width: 1150px ) {
+    .pdestprev{
+        left: -40px !important;
+    }
+    .pdestnext{
+        right: -40px !important;
+    }
+    .pdestbtn{
+        font-size: 1.2rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.2rem;
+    }
+}
+
+@media ( max-width: 1110px ) {
+    .pdestbtn{
+        font-size: 1.4rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.7rem;
+    }
+}
+
+@media ( max-width: 930px ) {
+    .pdestbtn{
+        font-size: 1.3rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.5rem;
+    }
+}
+
+@media ( max-width: 870px ) {
+    .pdestbtn{
+        font-size: 1.1rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.2rem;
+    }
+}
+
+@media ( max-width: 790px ) {
+    .pdestslide{
+        padding: 1rem 6.5rem;
+    }
+    .pdestimg{
+        height: 230px;
+    }
+    .pdestbtn{
+        font-size: 1.4rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.7rem;
+    }
+}
+
+
+@media ( max-width: 690px ) {
+    .pdestbtn{
+        font-size: 1.2rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media ( max-width: 630px ) {
+    .pdestslide{
+        padding: 1rem 5.5rem;
+    }
+    .pdestimg{
+        height: 200px;
+    }
+
+    .pdestdest{
+        font-size: 1.3rem;
+    }
+    .pdestdest i{
+        margin-right: 1rem;
+    }
+    
+    .pdestprice{
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+    
+    .pdeststars{
+        font-size: 1.2rem;
+    }
+    .pdeststars i{
+        margin-right: 0.3rem;
+    }
+    .pdeststars span{
+        font-size: 0.95rem;
+    }
+    
+}
+
+@media ( max-width: 600px ) {
+    .pdestbtn{
+        font-size: 1rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.2rem;
+    }
+}
+
+@media ( max-width: 580px ) {
+    .pdestimg{
+        height: 190px;
+    }
+    .pdestimgdesc{
+        padding: 0.5rem 1rem;
+    }
+    .pdestslide{
+        padding: 1rem 4rem;
+    }
+    .pdestimg::after{
+        height: 190px;
+    }
+}
+
+@media ( max-width: 535px ) {
+    .pdestbtn{
+        font-size: 1rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1.1rem;
+    }
+}
+
+@media ( max-width: 525px ) {
+    .pdestbtn{
+        font-size: 0.9rem;
+    }
+    .pdestbtn:hover{
+        font-size: 1rem;
+    }
+    .pdestimg:hover .pdestbtn{
+        top: 28%;
+    }
+}
+
+@media ( max-width: 510px ) {
+    .pdestimgdesc{
+        padding: 0.5rem 1rem;
+    }
+    .pdestslide{
+        padding: 1rem 3rem;
+    }
+}
+
+@media ( max-width: 475px ) {
+    .pdestbtn{
+        padding: 0.5rem 0.8rem;
+    }
+}
+
+@media ( max-width: 450px ) {
+    .populardestinations{
+        padding-bottom: 6rem;
+    }
+    .pdestimg{
+        height: 170px;
+    }
+    .pdestimg::after{
+        height: 170px;
+    }
+    .pdestimg:hover .pdestbtn{
+        top: 25%;
+    }
+    .pdestimgdesc{
+        padding: 0.5rem 1rem;
+    }
+    .pdestslide{
+        padding: 1rem 0.5rem;
+    }
+    .pdestprev{
+        left: -55px !important;
+    }
+    .pdestnext{
+        right: -55px !important;
+    }
+    .pdestprev i{
+        font-size: 1.5rem;
+    }
+    .pdestnext i{
+        font-size: 1.5rem;
+    }
+}
+
+@media ( max-width: 370px ) {
+    .pdestdest{
+        font-size: 1.2rem;
+    }
+    .pdestdest i{
+        margin-right: 0.5rem;
+    }
+    .pdestprice{
+        font-size: 1.1rem;
+    }
+    .pdeststars{
+        font-size: 1rem;
+    }
+    .pdeststars i{
+        margin-right: 0.2rem;
+    }
+    .pdeststars span{
+        font-size: 0.8rem;
+    }
+
+    .pdestslide{
+        padding: 1rem 1rem;
+    }
+    .pdestmain{
+        padding: 1rem 0.5rem;
+    }
+    .pdestprev{
+        left: -35px !important;
+    }
+    .pdestnext{
+        right: -35px !important;
+    }
+    .pdestimg{
+        height: 160px;
+    }
+    .pdestimg::after{
+        height: 160px;
+    }
+    .pdesthead{
+        font-size: 2.5rem;
+    }
+}
+
+@media ( max-width: 325px ) {
+    .pdestimg{
+        height: 150px;
+    }
+    .pdestimg::after{
+        height: 150px;
+    }
+    .pdestprev{
+        left: -30px !important;
+    }
+    .pdestnext{
+        right: -30px !important;
+    }
+    .pdesthead{
+        font-size: 2rem;
+    }
+    .pdestmain{
+        padding: 0;
+    }
+}
+
+@media ( max-width: 305px ) {
+    .pdestbtn{
+        font-size: 0.8rem;
+    }
+    .pdestbtn:hover{
+        font-size: 0.9rem;
+    }
+}
+
+@media ( max-width: 295px ) {
+    .pdestbtn{
+        font-size: 0.7rem;
+    }
+    .pdestbtn:hover{
+        font-size: 0.8rem;
+    }
+    .pdestimg:hover .pdestbtn{
+        top: 23%;
+    }
+    .pdestimgdesc{
+        padding: 0.5rem 0.65rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,234 @@
+.footer{
+    /* border: 4px solid red; */
+    background-color: rgb(68, 68, 68);
+    background-color: rgb(43, 43, 43);
+    color: rgb(156, 156, 156);
+    padding-top: 4rem;
+}
+
+.fcontainer{
+    /* border: 2px solid red; */
+    width: 80vw;
+    margin: 4rem auto;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fchild{
+    /* border: 2px solid red; */
+    padding: 0 0.5rem;
+    width: 23%;
+}
+
+.fhead{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.4rem;
+}
+
+/* ----------------------------------------------- address ----------------------------------------------- */
+.faddress{
+
+}
+
+.faddresschild{
+    margin-bottom: 1rem;
+}
+
+.faddresslocation{
+    line-height: 25px;
+}
+
+
+/* ----------------------------------------------- about ----------------------------------------------- */
+.fabout{
+
+}
+
+.faboutdesc{
+    line-height: 23px;
+    margin-bottom: 1rem;
+}
+
+.fabouticons{
+    font-size: 2rem;
+}
+
+.fabouticons i{
+    margin-right: 1rem;
+    /* background-color: white; */
+    /* border-radius: 5px; */
+}
+
+.footfacebook{
+    color: #2e62ca;
+}
+.foottwitter{
+    color: #15a5ff;
+}
+.footgoogle{
+    color: red;
+}
+.footlinkedin{
+    color: #0077c1;
+}
+
+/* ----------------------------------------------- places ----------------------------------------------- */
+.fplaces{
+
+}
+
+.fplace{
+    margin-bottom: 1rem;
+}
+
+/* ----------------------------------------------- newsletter ----------------------------------------------- */
+.fnews{
+
+}
+
+.fnewsdesc{
+    line-height: 23px;
+    margin-bottom: 1rem;
+}
+
+.fnewsinput{
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+    border: 2px solid rgb(156, 156, 156);
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* ----------------------------------------------- footerfoot ----------------------------------------------- */
+.footerfoot{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgb(43, 43, 43);
+    background-color: rgb(68, 68, 68);
+}
+.footercopy{
+    color: white;
+}
+
+
+/* ------------------------------------------------- media queries ----------------------------------------------------- */
+
+@media ( max-width: 1060px ) {
+    .fcontainer{
+        width: 90vw;
+    }
+}
+
+@media ( max-width: 940px ) {
+    .fcontainer{
+        width: 80vw;
+        margin-bottom: 1rem;
+    }
+
+    .fchild{
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media ( max-width: 540px ) {
+    .fcontainer{
+        width: 70vw;
+    }
+
+    .fchild{
+        width: 100%;
+    }
+
+    .footerfoot{
+        font-size: 0.9rem;
+    }
+}
+
+@media ( max-width: 430px ) {
+    .footerfoot{
+        padding: 1rem 2rem;
+        line-height: 23px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

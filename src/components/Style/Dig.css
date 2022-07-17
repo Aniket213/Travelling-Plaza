@@ -1,0 +1,128 @@
+.dig{
+    background-color: var(--dig);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 7px 7px 10px rgba(151, 151, 151, 0.3) inset; */
+}
+
+.digimage{
+    height: 100vh;
+    width: 100vw;
+    background: url('../../../public/images/dig/a11.jpg');
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+/* ---------------------------------------------------------- dig content ------------------------------------------------------------ */
+
+.digcontent{
+    width: 70vw;
+    padding-right: 10rem;
+    color: white;
+}
+
+.dighead{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.15rem;
+}
+
+.digpara{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.09rem;
+    font-weight: 300;
+}
+
+.digbtn{
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem 1.5rem;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.09rem;
+    transition: all 0.5s;
+}
+
+.digbtn:hover{
+    animation: rubberBand;
+    animation-duration: 1s;
+    background-color: red;
+}
+
+/* ------------------------------------------------- media queries ----------------------------------------------------- */
+
+@media ( max-width: 900px ) {
+    .dighead{
+        font-size: 2rem;
+    }
+    .digpara{
+        font-size: 0.8rem;
+    }
+}
+
+@media ( max-width: 750px ) {
+    .digremove{
+        display: none;
+    }
+    .digbtn{
+        font-size: 0.8rem;
+    }
+    .digcontent{
+        padding-right: 5rem;
+    }
+}
+
+@media ( max-width: 550px ) {
+    .digpara{
+        font-size: 0.7rem;
+    }
+    .digbtn{
+        font-size: 0.8rem;
+    }
+    .digcontent{
+        padding-right: 3rem;
+        width: 80vw;
+    }
+}
+
+@media ( max-width: 450px ) {
+    .digcontent{
+        width: 90vw;
+        padding-right: 0;
+    }
+}
+
+@media ( max-width: 350px ) {
+    .dighead{
+        font-size: 1.5rem;
+    }
+    .digpara{
+        font-size: 0.75rem;
+    }
+    .digbtn{
+        font-size: 0.75rem;
+    }
+    .digremove2{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+

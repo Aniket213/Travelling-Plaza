@@ -1,0 +1,180 @@
+.services{
+    /* border: 4px solid gold; */
+    /* height: 100vh; */
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-color: var(--whitesmoke);
+}
+
+/* ---------------------------------------------- heading ----------------------------------------------- */
+
+.serviceshead{
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+    word-spacing: 0.5rem;
+    color: var(--heading);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    transition: all 0.5s;
+}
+.serviceshead:hover{
+    color: var(--headingh);
+}
+
+/* ---------------------------------------------- container ----------------------------------------------- */
+
+.servicescontainer{
+    /* border: 2px solid red; */
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* ----------------------------------------------  ----------------------------------------------- */
+
+.service{
+    /* border: 6px solid gold; */
+    box-shadow: 0 0 15px var(--serviceshadow);
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 30%;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+    transition: all 0.5s;
+}
+.service:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.242);
+    transform: scale(1.1);
+}
+
+.serviesicon{
+    font-size: 2.5rem;
+    color: red;
+}
+.serviesicon i{
+    transition: all 0.5s;
+}
+.serviesicon i:hover{
+    color: gold;
+}
+
+.servicename{
+    font-size: 1.5rem;
+    margin: 0.8rem 0;
+    font-weight: 500;
+    color: var(--color3);
+}
+
+.servicedesc{
+    font-size: 0.9rem;
+    color: var(--color5);
+}
+
+/* ------------------------------------------------- media queries ----------------------------------------------------- */
+@media ( max-width: 1300px ) {
+    .servicescontainer{
+        width: 80vw;
+    }
+}
+
+@media ( max-width: 1100px ) {
+    .servicescontainer{
+        width: 90vw;
+    }
+    .services{
+        padding-top: 2rem;
+    }
+    .serviceshead{
+        margin-bottom: 2rem;
+    }
+}
+
+@media ( max-width: 935px ) {
+    .service{
+        padding: 1rem;
+    }
+    .serviesicon{
+        font-size: 2rem;
+    }
+    .servicename{
+        font-size: 1.4rem;
+    }
+    .servicedesc{
+        font-size: 0.7rem;
+    }
+    .services{
+        padding-top: 3rem;
+    }
+    .serviceshead{
+        margin-bottom: 3rem;
+    }
+}
+
+@media ( max-width: 635px ) {
+    .serviesicon{
+        font-size: 1.8rem;
+    }
+    .servicename{
+        font-size: 1.2rem;
+    }
+    .serviceshead{
+        font-size: 2.5rem;
+    }
+    .service{
+        width: 195px;
+        margin-bottom: 1rem;
+        border: 4px solid gold;
+    }
+    .services{
+        padding-top: 2rem;
+    }
+    .serviceshead{
+        margin-bottom: 2rem;
+    }
+    .servicescontainer{
+        justify-content: space-around;
+    }
+}
+
+@media ( max-width: 470px ){
+    .servicescontainer{
+        width: 100vw;
+    }
+}
+
+@media ( max-width: 415px ){
+    .servicescontainer{
+        width: 80vw;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

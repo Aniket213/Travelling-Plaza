@@ -1,0 +1,326 @@
+.team{
+    padding: 8rem 0;
+    background-color: var(--white);
+    /* border: 4px solid purple; */
+}
+
+.teamhead{
+    font-size: 3rem;
+    color: var(--heading);
+    letter-spacing: 0.15rem;
+    word-spacing: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    transition: all 0.5s;
+}
+.teamhead:hover{
+    color: var(--headingh);
+}
+
+.teamcontainer{
+    /* border: 2px solid red; */
+    width: 80vw;
+    margin: 4rem auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamall{
+    /* border: 2px solid black; */
+    width: 22%;
+    box-shadow: 0 0 15px var(--teamshadow);
+    background-color: var(--white);
+}
+
+.teamimgdesc{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 0.3rem 0;
+}
+
+.teamname{
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: var(--color3);
+}
+
+.teamrole{
+    font-size: 1rem;
+    color: var(--color5);
+    margin-bottom: 0.5rem;
+}
+
+.teamlinks{
+    margin-bottom: 0.5rem;
+}
+.teamlinks i{
+    display: inline-block;
+    font-size: 2rem;
+}
+.teamlinks .teamfacebook{
+    padding-right: 1rem;
+    color: blue;
+}
+.fa-instagram-square{
+    font-size: 72px;
+    background: -webkit-linear-gradient(-135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* ------------------------------------------------------- images ------------------------------------------------------- */
+
+.teamimg1{
+    background: url('../../../public/images/persons/team/guide.jpg');
+}
+.teamimg2{
+    background: url('../../../public/images/persons/team/director.jpg');
+}
+.teamimg3{
+    background: url('../../../public/images/persons/team/agent.jpg');
+}
+.teamimg4{
+    background: url('../../../public/images/persons/team/consultant.jpg');
+}
+.teamimgcover{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.teamimg{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s;
+}
+.teamimg:hover{
+    transform: scale(1.1);
+}
+
+
+/* ------------------------------------------------- media queries ----------------------------------------------------- */
+
+@media ( max-width: 1350px ) {
+    .teamimgcover{
+        height: 250px;
+    }
+}
+
+@media ( max-width: 1350px ) {
+    .teamimgcover{
+        height: 200px;
+    }
+
+    .teamname{
+        font-size: 1.3rem;
+    }
+
+    .teamrole{
+        font-size: 0.9rem;
+    }
+
+    .teamlinks i{
+        font-size: 1.5rem;
+    }
+}
+
+@media ( max-width: 950px ) {
+    .teamcontainer{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .teamall{
+        width: 35%;
+        margin-bottom: 3rem;
+    }
+
+    .teamimgcover{
+        height: 300px;
+    }
+
+    .teamname{
+        font-size: 1.5rem;
+    }
+
+    .teamrole{
+        font-size: 1rem;
+    }
+
+    .teamlinks i{
+        font-size: 2rem;
+    }
+}
+
+@media ( max-width: 800px ) {
+    .teamimgcover{
+        height: 250px;
+    }
+    
+    .teamall{
+        width: 38%;
+    }
+
+    .teamname{
+        font-size: 1.3rem;
+    }
+
+    .teamrole{
+        font-size: 0.9rem;
+    }
+
+    .teamlinks i{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media ( max-width: 650px ) {
+    .teamhead{
+        font-size: 2.5rem;
+    }
+    
+    .teamimgcover{
+        height: 220px;
+    }
+    
+    .teamall{
+        width: 42%;
+    }
+
+    .teamname{
+        font-size: 1.2rem;
+    }
+
+    .teamrole{
+        font-size: 0.8rem;
+    }
+
+    .teamlinks i{
+        font-size: 1.5rem;
+    }
+}
+
+@media ( max-width: 550px ) {
+    .teamhead{
+        font-size: 2rem;
+    }
+
+    .teamimgcover{
+        height: 200px;
+    }
+    
+    .teamall{
+        width: 45%;
+    }
+
+    .teamname{
+        font-size: 1.2rem;
+    }
+
+    .teamrole{
+        font-size: 0.8rem;
+    }
+
+    .teamlinks i{
+        font-size: 1.5rem;
+    }
+}
+
+@media ( max-width: 450px ) {
+    .teamhead{
+        font-size: 1.8rem;
+    }
+
+    .teamimgcover{
+        height: 300px;
+    }
+    
+    .teamall{
+        width: 80%;
+    }
+
+    .teamname{
+        font-size: 1.5rem;
+    }
+
+    .teamrole{
+        font-size: 1rem;
+    }
+
+    .teamlinks i{
+        font-size: 2rem;
+    }
+}
+
+@media ( max-width: 350px ) {
+
+    .teamimgcover{
+        height: 220px;
+    }
+
+    .teamall{
+        margin-bottom: 2rem;
+    }
+
+    .teamname{
+        font-size: 1.2rem;
+    }
+
+    .teamrole{
+        font-size: 0.8rem;
+    }
+
+    .teamlinks i{
+        font-size: 1.7rem;
+    }
+
+    .teamlinks{
+        margin-bottom: 0.2rem;
+    }
+}
+
+@media ( max-width: 310px ) {
+
+    .teamimgcover{
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
