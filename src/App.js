@@ -10,7 +10,7 @@ import Team from './components/Team';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import 'animate.css';    // now u can use animations at any page
+import 'animate.css';    
 
 function App() {
   const modebtn = ()=>{
