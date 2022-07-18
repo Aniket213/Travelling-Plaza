@@ -29,7 +29,6 @@ function App() {
     <div className="app lightmode">
       <Nav modebtn = {modebtn}/>
       <Home/>
-      Is it working fine ??? :)
       <Chatbot/>
       <Services/>
       <Showcase/>
