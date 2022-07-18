@@ -1,7 +1,7 @@
 <h1>Travelling-Plaza-frontend-project</h1>
 <p>This is a single page React.js project made for Future Ready Talent Program.</p>
 
-<p>URL - </p> <a href='https://lively-cliff-050109300.1.azurestaticapps.net/'>My Website</a>
+<p>URL - <a href='https://lively-cliff-050109300.1.azurestaticapps.net/'>My Website</a></p> 
 
 
 <br><br>
