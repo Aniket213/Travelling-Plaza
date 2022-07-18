@@ -1,9 +1,9 @@
 <h1>Travelling-Plaza-frontend-project</h1>
 <p>This is a single page React.js project made for Future Ready Talent Program.</p>
 
-<video width="500" controls>
-  <source src="https://user-images.githubusercontent.com/99321374/179493238-f6658f6d-31b1-4468-9fe7-74db51d7e1d3.mp4" type="video/mp4">
-</video>
+<a href='https://lively-cliff-050109300.1.azurestaticapps.net/'>My Website</a>
+
+https://user-images.githubusercontent.com/99321374/179493238-f6658f6d-31b1-4468-9fe7-74db51d7e1d3.mp4</video>
 
 <h2>Azure Services used</h2>
 <ul>
