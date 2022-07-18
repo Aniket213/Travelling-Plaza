@@ -1,9 +1,8 @@
-#Travelling-Plaza-frontend-project
-This is a single page React.js project made for Future Ready Talent Program.
+<h1>Travelling-Plaza-frontend-project</h1>
+<p>This is a single page React.js project made for Future Ready Talent Program.</p>
 
 
-
-#Azure Services used
+<h2>Azure Services used</h2>
 - Web App Bot
 - Static Web App
 
