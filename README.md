@@ -10,7 +10,6 @@ https://user-images.githubusercontent.com/99321374/179493238-f6658f6d-31b1-4468-
 <h2>Problem Statement</h2>
 <p>There are a lot of people who love travelling and exploring new places but it is very difficult for them to find a perfect destination for their trip as there are a lot of tourist places in the world.
 So i made a Travelling website which helps users to choose best fit tour for them according to price and location. They can see the customer reviews for different locations as well as reviews for tour guides. This website give a great interface for booking their trip.</p>
-<h2>Azure Services used</h2>
  <br>
 
 <h2>Project Description</h2>
@@ -21,6 +20,7 @@ there is a contact form so that they can reach out to company,
 there is a chatbot for their help.</p>
 
 <br>
+<h2>Azure Services used</h2>
 <ul>
   <li>Web App Bot</li>
   <li>Static Web App</li>
