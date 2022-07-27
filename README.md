@@ -13,12 +13,13 @@ So i made a Travelling website which helps users to choose best fit tour for the
 <h2>Azure Services used</h2>
  <br>
 
-<h2>Azure Services used</h2>
+<h2>Project Description</h2>
 <p>Now a days it is very difficult for people to choose a trip for them according to their requirements as there are a lot of travelling places in the world.
 I made a single page React application of travelling website which provide users a Clean and Modern interface for selecting their tour. My website makes it very easy and fun for the customers for choosing their tours by providing a lot of features like -
 customers are see the most popular places to visit with customers reviews,
 there is a contact form so that they can reach out to company,
 there is a chatbot for their help.</p>
+
 <br>
 <ul>
   <li>Web App Bot</li>
