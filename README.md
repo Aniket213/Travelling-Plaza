@@ -30,6 +30,19 @@ there is a chatbot for their help.</p>
 <img src="https://user-images.githubusercontent.com/99321374/179459056-2871bb5f-88b7-46ff-8155-2baa2f13da5e.png" width="600">
 <img src="https://user-images.githubusercontent.com/99321374/181199807-b203715f-aaa9-4e9f-8551-35b11585e328.png" width="600">
 <img src="https://user-images.githubusercontent.com/99321374/181200208-5def0891-f923-4abf-972d-1fd7f7835d44.png" width="600">
+<br>
+
+<h2>Website Screenshots</h2>
+<img src="https://user-images.githubusercontent.com/99321374/181205388-1a4025fd-6451-4c8d-b96d-5a7f93b803c6.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181205437-56d4ec99-756b-41a5-9004-09c2239d9dc4.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181205452-bd921cae-6437-415e-9c44-72d89d109962.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181205468-31c6e160-7609-4e8b-8b88-8e6428d7ab61.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181205494-7a90c66a-1d77-4619-9384-7aefc311f5d5.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181205514-25fcd195-d6bf-4969-8bf8-d834854c6ae3.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181205528-8da8b2c0-a836-43c0-9e08-a6d8c0cdf21e.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181205547-56ff84f9-2c11-4cd2-bcf2-705bc94b0da3.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181205561-5d269309-228e-408c-ae3b-75adc5f0c829.png" width="600">
+
 
 <br><br>
 <h2>Key Features</h2>
