@@ -15,7 +15,7 @@ So i made a Travelling website which helps users to choose best fit tour for the
 <h2>Project Description</h2>
 <p>Now a days it is very difficult for people to choose a trip for them according to their requirements as there are a lot of travelling places in the world.
 I made a single page React application of travelling website which provide users a Clean and Modern interface for selecting their tour. My website makes it very easy and fun for the customers for choosing their tours by providing a lot of features like - <br>
-customers are see the most popular places to visit with customers reviews, <br>
+customers can see the most popular places to visit with customers reviews, <br>
 there is a contact form so that they can reach out to company, <br>
 there is a chatbot for their help.</p>
 
@@ -25,8 +25,11 @@ there is a chatbot for their help.</p>
   <li>Static Web App</li>
   <li>QNA Maker</li>
 </ul>
+
 <img src="https://user-images.githubusercontent.com/99321374/179458826-fe0bfa71-a844-43c3-bebd-aef73c47880e.png" width="600">
 <img src="https://user-images.githubusercontent.com/99321374/179459056-2871bb5f-88b7-46ff-8155-2baa2f13da5e.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181199807-b203715f-aaa9-4e9f-8551-35b11585e328.png" width="600">
+<img src="https://user-images.githubusercontent.com/99321374/181200208-5def0891-f923-4abf-972d-1fd7f7835d44.png" width="600">
 
 <br><br>
 <h2>Key Features</h2>
